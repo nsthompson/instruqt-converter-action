@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:slim
 
 # Download list and upgrade to latest packages
 RUN apt-get -y update
